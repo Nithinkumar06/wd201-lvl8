@@ -19,6 +19,7 @@ app.get("/", async (req, res) => {
   } else {
     res.json(allTodos);
   }
+  
 });
 
 app.get("/todos", async (req, res) => {
